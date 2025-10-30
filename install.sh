@@ -3,10 +3,10 @@
 # Kubernetes Self-Hosted Platform - One-Line Installer
 # 
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/k8s-platform/main/install.sh | sudo bash
+#   curl -fsSL https://raw.githubusercontent.com/Mehrdad-Hooshmand/k8s-platform/main/install.sh | sudo bash
 #
 # Or download and run:
-#   wget https://raw.githubusercontent.com/YOUR_USERNAME/k8s-platform/main/install.sh
+#   wget https://raw.githubusercontent.com/Mehrdad-Hooshmand/k8s-platform/main/install.sh
 #   chmod +x install.sh
 #   sudo ./install.sh
 #
@@ -21,7 +21,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # GitHub repository
-GITHUB_USER="YOUR_USERNAME"
+GITHUB_USER="Mehrdad-Hooshmand"
 GITHUB_REPO="k8s-platform"
 GITHUB_BRANCH="main"
 BASE_URL="https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}"
