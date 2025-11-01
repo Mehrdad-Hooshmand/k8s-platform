@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { Search, Package, Filter, Download } from 'lucide-react'
 import { appService } from '@/services/apps'
-import type { Application } from '@/types'
+
 
 export default function Apps() {
   const [searchQuery, setSearchQuery] = useState('')

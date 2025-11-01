@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
+import { useQuery } from '@tanstack/react-query'
 import { Boxes, Plus, Info } from 'lucide-react'
 import { clusterService } from '@/services/clusters'
 import { deploymentService } from '@/services/deployments'
@@ -7,7 +7,7 @@ import DeploymentDetails from '@/components/DeploymentDetails'
 import type { Deployment } from '@/types'
 
 export default function Deployments() {
-  const queryClient = useQueryClient()
+    
   const [selectedCluster, setSelectedCluster] = useState<number | null>(null)
   const [selectedDeployment, setSelectedDeployment] = useState<Deployment | null>(null)
 

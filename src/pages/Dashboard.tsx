@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { Server, Network, Boxes, Package, TrendingUp, Activity, Cpu, HardDrive } from 'lucide-react'
+import { Server, Network, Boxes, Package, Activity } from 'lucide-react'
 import { clusterService } from '@/services/clusters'
 import { deploymentService } from '@/services/deployments'
 import { appService } from '@/services/apps'
