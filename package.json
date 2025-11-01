@@ -64,11 +64,11 @@
           "arch": ["x64"]
         }
       ],
-      "icon": "electron/icon.png"
+
     },
     "mac": {
       "target": "dmg",
-      "icon": "electron/icon.png",
+
       "category": "public.app-category.developer-tools"
     },
     "linux": {
@@ -76,7 +76,7 @@
         "AppImage",
         "deb"
       ],
-      "icon": "electron/icon.png",
+
       "category": "Development"
     },
     "nsis": {
