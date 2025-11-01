@@ -1,0 +1,17 @@
+# Note: This is a placeholder icon file
+# For production, replace with actual PNG icon (512x512)
+# You can create one at: https://icon.kitchen
+# Or use Kubernetes logo from: https://kubernetes.io/
+
+# Placeholder text - actual icon should be created before building
+Icon: ⎈ K8s Platform Manager
+Size: 512x512px
+Format: PNG with transparency
+Colors: Kubernetes Blue (#326CE5) + White
+
+# Quick icon creation:
+# 1. Go to https://www.figma.com
+# 2. Create 512x512 frame
+# 3. Add Kubernetes symbol ⎈
+# 4. Add text "K8s Platform"
+# 5. Export as PNG
