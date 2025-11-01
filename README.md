@@ -7,8 +7,8 @@
 [![Electron](https://img.shields.io/badge/Electron-28-purple)](https://www.electronjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-cyan)](https://tailwindcss.com/)
-[![Build Status](https://github.com/USERNAME/k8s-platform-panel/workflows/Build%20and%20Release%20Desktop%20App/badge.svg)](https://github.com/USERNAME/k8s-platform-panel/actions)
-[![GitHub release](https://img.shields.io/github/v/release/USERNAME/k8s-platform-panel)](https://github.com/USERNAME/k8s-platform-panel/releases)
+[![Build Status](https://github.com/USERNAME/k8s-platform/workflows/Build%20and%20Release%20Desktop%20App/badge.svg)](https://github.com/USERNAME/k8s-platform/actions)
+[![GitHub release](https://img.shields.io/github/v/release/USERNAME/k8s-platform)](https://github.com/USERNAME/k8s-platform/releases)
 
 ---
 
@@ -44,9 +44,9 @@
 ### Option 1: Desktop App (Recommended)
 
 **Download for your platform:**
-- [Windows (.exe)](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/releases)
-- [macOS (.dmg)](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/releases)
-- [Linux (.AppImage)](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/releases)
+- [Windows (.exe)](https://github.com/Mehrdad-Hooshmand/k8s-platform/releases)
+- [macOS (.dmg)](https://github.com/Mehrdad-Hooshmand/k8s-platform/releases)
+- [Linux (.AppImage)](https://github.com/Mehrdad-Hooshmand/k8s-platform/releases)
 
 **Then:**
 1. Install and launch
@@ -70,8 +70,8 @@
 
 ```bash
 # Clone
-git clone https://github.com/Mehrdad-Hooshmand/k8s-platform-panel
-cd k8s-platform-panel
+git clone https://github.com/Mehrdad-Hooshmand/k8s-platform
+cd k8s-platform
 
 # Install dependencies
 npm install
@@ -102,7 +102,7 @@ See [DESKTOP-APP.md](DESKTOP-APP.md) for detailed instructions.
 ## 🏗️ Project Structure
 
 ```
-k8s-platform-panel/
+k8s-platform/
 ├── src/
 │   ├── components/          # Reusable UI components
 │   │   ├── ui/             # shadcn/ui components
@@ -199,12 +199,12 @@ netlify deploy --prod
 
 ```bash
 # Build image
-docker build -t k8s-platform-panel .
+docker build -t k8s-platform .
 
 # Run container
 docker run -p 80:80 \
   -e VITE_API_URL=https://api.your-cluster.com \
-  k8s-platform-panel
+  k8s-platform
 ```
 
 ---
@@ -236,9 +236,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 💬 Support
 
-- 📖 [Documentation](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/wiki)
-- 🐛 [Report Bug](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/issues)
-- 💡 [Request Feature](https://github.com/Mehrdad-Hooshmand/k8s-platform-panel/issues)
+- 📖 [Documentation](https://github.com/Mehrdad-Hooshmand/k8s-platform/wiki)
+- 🐛 [Report Bug](https://github.com/Mehrdad-Hooshmand/k8s-platform/issues)
+- 💡 [Request Feature](https://github.com/Mehrdad-Hooshmand/k8s-platform/issues)
 
 ---
 
